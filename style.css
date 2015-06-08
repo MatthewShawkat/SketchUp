@@ -1001,3 +1001,13 @@ object {
   padding: 0; }
   .section_title {
     text-align: center; }
+
+.skill {
+  padding: 3px 10px;
+  background-color: #eee;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  transition: all 300ms ease-out 0s; }
+  .skill:hover {
+    background-color: #d3d3d3; }
