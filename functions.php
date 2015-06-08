@@ -158,3 +158,8 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+/**
+ * Load Shortcodes.
+ */
+require get_template_directory() . '/shortcodes/shortcodes.php';

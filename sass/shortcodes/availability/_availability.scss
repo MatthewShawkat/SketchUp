@@ -1,0 +1,19 @@
+.availability {
+  &_card {
+    background-color: #ececec;
+    max-width: 260px;
+  }
+
+  &_header {
+    padding: 10px;
+    background-color: #05B2D2;
+    color: #fff; }
+
+  &_content {
+    padding: 10px; }
+
+  &_divider {
+    height: 1px;
+    margin-bottom: 0;
+    padding: 0; }
+}

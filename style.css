@@ -908,3 +908,23 @@ object {
 
 .gallery-caption {
   display: block; }
+
+/*--------------------------------------------------------------
+# Shortcodes
+--------------------------------------------------------------*/
+.availability_card {
+  background-color: #ececec;
+  max-width: 260px; }
+
+.availability_header {
+  padding: 10px;
+  background-color: #05B2D2;
+  color: #fff; }
+
+.availability_content {
+  padding: 10px; }
+
+.availability_divider {
+  height: 1px;
+  margin-bottom: 0;
+  padding: 0; }
