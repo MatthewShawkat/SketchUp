@@ -1,7 +1,9 @@
 .availability {
   &_card {
-    background-color: #ececec;
-    max-width: 260px;
+    background-color: #ECECEC;
+    width: 300px;
+    display: inline-block;
+    text-align: center;
   }
 
   &_header {

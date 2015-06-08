@@ -1,5 +1,5 @@
 <?php function getHtml ($company, $date) { ob_start(); ?>
-    <div class="availability_card center">
+    <div class="availability_card alignright">
 		<div class="availability_header bold">Currently At</div>
 		<div class="availability_content"><?php echo ($company) ?></div>
 		<hr class="availability_divider">

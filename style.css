@@ -970,8 +970,10 @@ object {
 # Shortcodes
 --------------------------------------------------------------*/
 .availability_card {
-  background-color: #ececec;
-  max-width: 260px; }
+  background-color: #ECECEC;
+  width: 300px;
+  display: inline-block;
+  text-align: center; }
 
 .availability_header {
   padding: 10px;
