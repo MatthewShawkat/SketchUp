@@ -231,7 +231,7 @@ input,
 select,
 textarea {
   color: #404040;
-  font-family: sans-serif;
+  font-family: Lato, Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-size: 1rem;
   line-height: 1.5; }
@@ -291,7 +291,7 @@ html {
   box-sizing: inherit; }
 
 body {
-  background: #fff;
+  background: #eee;
   /* Fallback for when there is no custom background color defined. */ }
 
 blockquote, q {
@@ -489,55 +489,6 @@ a {
   width: 50%; }
 
 /*--------------------------------------------------------------
-# Header
---------------------------------------------------------------*/
-/* =Header */
-.site-header {
-  border-bottom: 3px solid #eeeeee;
-  margin: 0 0 27px;
-  padding: 0 0 24px; }
-
-.site-logo {
-  display: inline-block;
-  margin-right: 14px;
-  width: auto;
-  max-height: 70px;
-  vertical-align: middle; }
-
-.custom-header {
-  border-radius: 5px;
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 27px; }
-
-.site-branding {
-  clear: none;
-  float: left;
-  margin-bottom: 14px;
-  max-width: 50%; }
-
-.site-title {
-  font-size: 1.75em;
-  line-height: 1;
-  clear: none;
-  display: inline-block;
-  letter-spacing: 3px;
-  margin: 0;
-  position: relative;
-  z-index: 2; }
-
-.site-title a {
-  color: #333333;
-  text-decoration: none; }
-
-.has-site-logo .site-title {
-  max-width: 60%;
-  vertical-align: middle; }
-
-.site-description {
-  display: none; }
-
-/*--------------------------------------------------------------
 # Accessibility
 --------------------------------------------------------------*/
 /* Text meant only for screen readers. */
@@ -629,6 +580,69 @@ a {
 /*--------------------------------------------------------------
 # Content
 --------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Page
+--------------------------------------------------------------*/
+@media screen and (min-width: 75em) {
+  .site {
+    margin: 27px auto;
+    max-width: 1200px;
+    padding: 54px; } }
+
+.site {
+  background: #fff;
+  margin: 0 auto;
+  padding: 27px; }
+
+/*--------------------------------------------------------------
+## Header
+--------------------------------------------------------------*/
+/* =Header */
+.site-header {
+  border-bottom: 3px solid #eeeeee;
+  margin: 0 0 27px;
+  padding: 0 0 24px; }
+
+.site-logo {
+  display: inline-block;
+  margin-right: 14px;
+  width: auto;
+  max-height: 70px;
+  vertical-align: middle; }
+
+.custom-header {
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 27px; }
+
+.site-branding {
+  clear: none;
+  float: left;
+  margin-bottom: 14px;
+  max-width: 50%; }
+
+.site-title {
+  font-size: 1.75em;
+  line-height: 1;
+  clear: none;
+  display: inline-block;
+  letter-spacing: 3px;
+  margin: 0;
+  position: relative;
+  z-index: 2; }
+
+.site-title a {
+  color: #333333;
+  text-decoration: none; }
+
+.has-site-logo .site-title {
+  max-width: 60%;
+  vertical-align: middle; }
+
+.site-description {
+  display: none; }
+
 /*--------------------------------------------------------------
 ## Posts and pages
 --------------------------------------------------------------*/

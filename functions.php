@@ -114,6 +114,8 @@ add_action( 'widgets_init', 'sketchup_widgets_init' );
 function sketchup_scripts() {
 	wp_enqueue_style( 'sketchup-style', get_stylesheet_uri() );
 
+	wp_enqueue_style( 'sketchup-style', get_stylesheet_uri() );
+
 	wp_enqueue_script( 'sketchup-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 
 	wp_enqueue_script( 'sketchup-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
@@ -123,6 +125,14 @@ function sketchup_scripts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'sketchup_scripts' );
+
+function load_fonts() {
+	wp_register_style('googleFonts', 'http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic');
+	wp_enqueue_style( 'googleFonts');
+}
+
+add_action('wp_enqueue_scripts', 'load_fonts');
+
 
 /**
  * Implement the Custom Header feature.
