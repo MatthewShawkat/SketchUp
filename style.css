@@ -994,3 +994,10 @@ object {
   height: 1px;
   margin-bottom: 0;
   padding: 0; }
+
+.section {
+  border-top: 3px solid #eeeeee;
+  margin: 27px 0px 0px;
+  padding: 0; }
+  .section_title {
+    text-align: center; }

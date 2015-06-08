@@ -9,3 +9,4 @@
 
 
 require get_template_directory() . '/shortcodes/availability/availability.php';
+require get_template_directory() . '/shortcodes/section/section.php';
