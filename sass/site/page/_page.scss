@@ -1,7 +1,44 @@
 .site {
-  background: #fff;
+  background: white;
   margin: 0 auto;
   padding: 27px;
+}
+.has-site-logo .site {
+  padding-top: 14px;
+}
+
+.site-footer {
+  font-size: 0.8125em;
+  line-height: 2.09231em;
+  border-top: 3px solid #eeeeee;
+  color: #999999;
+  clear: both;
+  letter-spacing: 1px;
+  margin: 24px 0 0;
+  padding: 14px 0 0;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+.site-footer a {
+  color: #999999;
+  text-decoration: none;
+}
+.site-footer a:hover {
+  color: #f68060;
+}
+.site-footer .sep {
+  clear: both;
+  display: block;
+  margin: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+.site-content .widget-area {
+  border-top: 3px solid #eeeeee;
+  margin-top: 27px;
+  padding-top: 24px;
 }
 
 @media screen and (min-width: 75em) {
