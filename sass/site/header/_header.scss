@@ -1,0 +1,50 @@
+/* =Header */
+.site-header {
+  border-bottom: 3px solid #eeeeee;
+  margin: 0 0 27px;
+  padding: 0 0 24px;
+}
+.site-logo {
+  display: inline-block;
+  margin-right: 14px;
+  width: auto;
+  max-height: 70px;
+  vertical-align: middle;
+}
+.custom-header {
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 27px;
+}
+
+.site-branding {
+  clear: none;
+  float: left;
+  margin-bottom: 14px;
+  max-width: 50%;
+}
+
+.site-title {
+  font-size: 1.75em;
+  line-height: 1;
+  clear: none;
+  display: inline-block;
+  letter-spacing: 3px;
+  margin: 0;
+  position: relative;
+  z-index: 2;
+}
+.site-title a {
+  color: #333333;
+  text-decoration: none;
+}
+
+.has-site-logo .site-title {
+  max-width: 60%;
+  vertical-align: middle;
+}
+
+.site-description {
+  display: none;
+}
