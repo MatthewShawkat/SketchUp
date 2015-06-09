@@ -14,7 +14,12 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-			<?php while ( have_posts() ) : the_post(); ?>
+			<!-- Get all posts that are not in 'portfolio' category -->
+                        <?php
+                                $catId = get_category_by_slug('portfolio')->term_id;
+                                $catquery = new WP_Query( array('category__not_in' => array($catId)));
+                                while($catquery->have_posts()) : $catquery->the_post();
+                        ?>
 
                 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
                 	<header class="entry-header">
