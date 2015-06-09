@@ -22,6 +22,7 @@ get_header(); ?>
 
 
 			<!-- Get the last 3 posts with the category 'portfilio'  -->
+			<div style="text-align:center">
 			<?php
 				$portfolio_query_args = array('category_name'=>'portfolio', 'showposts'=>3);
 				$query = new WP_Query($portfolio_query_args);
@@ -30,11 +31,12 @@ get_header(); ?>
 
 				<a href="<?php the_permalink() ?>" rel="bookmark">
 					<?php if ( has_post_thumbnail() ) {
-						the_post_thumbnail(array(350,300));
+						the_post_thumbnail(array(361,300));
 	                } ?>
 				</a>
 
             <?php endwhile; ?>
+            </div>
 
 
 
