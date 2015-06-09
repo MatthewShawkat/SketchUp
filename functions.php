@@ -163,3 +163,5 @@ require get_template_directory() . '/inc/jetpack.php';
  * Load Shortcodes.
  */
 require get_template_directory() . '/shortcodes/shortcodes.php';
+
+add_filter( 'jetpack_development_mode', '__return_true' );

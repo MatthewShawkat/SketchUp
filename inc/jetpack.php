@@ -16,6 +16,12 @@ function sketchup_jetpack_setup() {
 		'render'    => 'sketchup_infinite_scroll_render',
 		'footer'    => 'page',
 	) );
+
+	/**
+	 * Add theme support for Jetpack portfolios
+	 */
+	add_theme_support( 'jetpack-portfolio' );
+
 } // end function sketchup_jetpack_setup
 add_action( 'after_setup_theme', 'sketchup_jetpack_setup' );
 
