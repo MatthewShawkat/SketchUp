@@ -14,6 +14,11 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
+			<header class="page-header">
+            	<h1 class="page-title">Blog</h1>
+            </header><!-- .page-header -->
+
+
 			<!-- Get all posts that are not in 'portfolio' category -->
                         <?php
                                 $catId = get_category_by_slug('portfolio')->term_id;
