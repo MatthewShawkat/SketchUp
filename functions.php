@@ -164,4 +164,9 @@ require get_template_directory() . '/inc/jetpack.php';
  */
 require get_template_directory() . '/shortcodes/shortcodes.php';
 
-add_filter( 'jetpack_development_mode', '__return_true' );
+// Load Font Awesome
+function enqueue_font_awesome() {
+	wp_enqueue_style( 'font-awesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' );
+}
+
+add_action( 'wp_enqueue_scripts', 'enqueue_font_awesome' );

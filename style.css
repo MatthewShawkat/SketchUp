@@ -782,6 +782,8 @@ a {
   text-align: center;
   text-transform: uppercase;
   width: 100%; }
+  .site-footer_item {
+    margin-right: 15px; }
 
 .site-footer a {
   color: #999999;
