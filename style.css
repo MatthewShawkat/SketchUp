@@ -809,9 +809,10 @@ a {
     padding: 54px; } }
 
 .page-header {
-  background-color: #eeeeee;
+  background-color: #f7f7f7;
+  border: 1px solid #eee;
   text-align: center;
-  line-height: 2; }
+  line-height: 1; }
 
 /*--------------------------------------------------------------
 ## Header
