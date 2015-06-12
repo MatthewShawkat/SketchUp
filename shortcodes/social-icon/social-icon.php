@@ -1,5 +1,4 @@
 <?php function getIconHtml ($icon, $url) {
-    $path = "/wp-content/themes/sketchup/assets/images/icons/" . $icon . ".png";
     ob_start(); ?>
         <a class="social-icon" href="<?php echo $url ?>"><img class="social-icon_img" src="<?php echo $path ?>"></a>
 <?php

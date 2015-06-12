@@ -785,6 +785,15 @@ a {
   .site-footer_item {
     margin-right: 15px; }
 
+.fa-stack-1x {
+  color: white; }
+
+.icon-linkedin {
+  color: #007bb6; }
+
+.icon-github {
+  color: #333; }
+
 .site-footer a {
   color: #999999;
   text-decoration: none; }
