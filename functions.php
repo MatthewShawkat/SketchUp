@@ -133,7 +133,10 @@ function load_fonts() {
 
 add_action('wp_enqueue_scripts', 'load_fonts');
 
-
+function new_excerpt_more( $more ) {
+	return ' ...';
+}
+add_filter('excerpt_more', 'new_excerpt_more');
 /**
  * Implement the Custom Header feature.
  */
