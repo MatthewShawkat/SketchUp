@@ -761,7 +761,7 @@ a {
 .site {
   background: white;
   margin: 0 auto;
-  padding: 27px; }
+  padding: 27px 27px 17px 27px; }
 
 .has-site-logo .site {
   padding-top: 14px; }
@@ -813,7 +813,7 @@ a {
   .site {
     margin: 27px auto !important;
     max-width: 1200px;
-    padding: 54px; } }
+    padding: 54px 54px 17px 54px; } }
 
 .page-header {
   background-color: #f7f7f7;
