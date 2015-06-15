@@ -45,9 +45,7 @@ get_header(); ?>
                 		?>
                 	</div><!-- .entry-content -->
 
-                	<footer class="entry-footer">
-                		<?php sketchup_entry_footer(); ?>
-                	</footer><!-- .entry-footer -->
+                	
                 </article><!-- #post-## -->
 
 
