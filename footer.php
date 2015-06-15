@@ -22,20 +22,13 @@
 			<span class="site-footer_item">
 				<i class="fa fa-phone"></i><span>&nbsp;075 010 86 252</span>
 			</span>
+            
+            <br>
+			
+            <?php echo do_shortcode( '[social-icon icon="github" url="https://github.com/MatthewShawkat"]' ) ?>
+            <?php echo do_shortcode( '[social-icon icon="linkedin" url="https://uk.linkedin.com/in/matthewshawkat"]' ) ?>
 
-			<a href="#">
-				<span class="fa-stack fa-lg icon-linkedin">
-				  <i class="fa fa-stop fa-stack-2x"></i>
-				  <i class="fa fa-linkedin fa-stack-1x"></i>
-				</span>
-			</a>
 
-			<a href="#">
-				<span class="fa-stack fa-lg icon-github">
-				  <i class="fa fa-stop fa-stack-2x"></i>
-				  <i class="fa fa-github fa-stack-1x"></i>
-				</span>
-			</a>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
