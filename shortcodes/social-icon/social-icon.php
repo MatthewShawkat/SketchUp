@@ -1,6 +1,9 @@
 <?php function getIconHtml ($icon, $url) {
     ob_start(); ?>
-        <a class="social-icon" href="<?php echo $url ?>"><img class="social-icon_img" src="<?php echo $path ?>"></a>
+<a class="social-icon" href="<?php echo $url ?>"><span class="fa-stack fa-lg icon-<?php echo $icon ?>">
+      <i class="fa fa-stop fa-stack-2x"></i>
+      <i class="fa fa-<?php echo $icon ?> fa-stack-1x"></i>
+    </span></a>
 <?php
     return ob_get_clean();
 } ?>

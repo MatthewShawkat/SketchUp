@@ -83,8 +83,8 @@ function sketchup_posted_on() {
 	);
 
 	$posted_on = sprintf(
-		esc_html_x( 'Posted on %s', 'post date', 'sketchup' ),
-		'<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a>'
+		esc_html_x( '%s', 'post date', 'sketchup' ),
+		'<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . '<span class="fa fa-clock-o">&nbsp;</span>' . $time_string . '</a>'
 	);
 
 	$byline = sprintf(
