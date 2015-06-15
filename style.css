@@ -1030,6 +1030,19 @@ object {
 
 .portfolio {
   text-align: center; }
+  .portfolioa {
+    outline: 0;
+    color: #fff;
+    background: none; }
+  .portfolioa:hover {
+    outline: 0;
+    color: #fff; }
+  .portfolioa:active {
+    outline: 0;
+    color: #fff; }
+  .portfolioa:focus {
+    outline: 0;
+    color: #fff; }
 
 .social-icon_img {
   width: 50px; }
