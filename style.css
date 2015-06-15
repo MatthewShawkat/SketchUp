@@ -573,13 +573,9 @@ a {
   border: 1px solid #eeeeee;
   clear: none;
   float: right;
-  padding: 5px 7px;
-  position: relative; }
-  .menu-toggle:before {
-    content: "\f419";
-    font-size: 16px;
-    margin-right: 5px;
-    vertical-align: text-bottom; }
+  padding: 8px 10px;
+  position: relative;
+  font-size: 20px; }
 
 .has-site-logo .main-navigation {
   height: 70px; }
