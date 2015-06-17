@@ -483,13 +483,13 @@ input[type="submit"] {
 
 .main-button {
   background-color: #f43059;
-  color: #fff;
+  color: #fff !important;
   text-decoration: none;
   padding: 8px 20px;
   border-radius: 3px; }
   .main-button:visited {
     text-decoration: none;
-    color: #fff; }
+    color: #fff !important; }
 
 input[type="text"],
 input[type="email"],

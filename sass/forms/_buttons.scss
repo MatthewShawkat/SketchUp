@@ -27,13 +27,13 @@ input[type="submit"] {
 
 .main-button {
     background-color: #f43059;
-    color: #fff;
+    color: #fff !important;
     text-decoration: none;
     padding: 8px 20px;
     border-radius: 3px;
     
     &:visited {
         text-decoration: none;
-        color: #fff;
+        color: #fff !important;
     }
 }
