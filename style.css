@@ -487,6 +487,9 @@ input[type="submit"] {
   text-decoration: none;
   padding: 8px 20px;
   border-radius: 3px; }
+  .main-button:visited {
+    text-decoration: none;
+    color: #fff; }
 
 input[type="text"],
 input[type="email"],

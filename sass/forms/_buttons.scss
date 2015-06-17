@@ -31,4 +31,9 @@ input[type="submit"] {
     text-decoration: none;
     padding: 8px 20px;
     border-radius: 3px;
+    
+    &:visited {
+        text-decoration: none;
+        color: #fff;
+    }
 }
