@@ -2,7 +2,7 @@
     <!-- Get the last 3 posts with the category 'portfilio'  -->
 <div class="portfolio">
 <?php
-    $portfolio_query_args = array('category_name'=>'portfolio', 'showposts'=>3);
+    $portfolio_query_args = array('category_name'=>'portfolio', 'showposts'=>6);
     $query = new WP_Query($portfolio_query_args);
     while($query->have_posts()) : $query->the_post();
 ?>
