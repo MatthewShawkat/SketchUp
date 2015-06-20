@@ -6,11 +6,8 @@
 		<div class="availability_content">
 			<div class="bold"><b>Next Available</b></div>
 			<div><?php echo ($date) ?></div>
-		</div>
-		<hr class="availability_divider">
-		<div class="availability_content">
-			<a href="/index.php/contact" class="main-button">Get in touch</a>
-		</div>
+		</div>		
+        <a href="/index.php/contact" class="main-button">Get in touch</a>
 	</div>
 <?php
     return ob_get_clean();

@@ -486,7 +486,7 @@ input[type="submit"] {
   color: #fff !important;
   text-decoration: none;
   padding: 8px 20px;
-  border-radius: 3px; }
+  display: block; }
   .main-button:visited {
     text-decoration: none;
     color: #fff !important; }
